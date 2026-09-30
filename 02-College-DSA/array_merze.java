@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class array_merze{
     public static void main(String[] args){
 
-        Scanner sc=new Scanner(System.in);
+        Scanner Sc = new Scanner(System.in);
 
         int n=2;
         int m=3;
@@ -13,7 +13,7 @@ public class array_merze{
 
         for(int i=0; i<n; i++){
             for(int j=0; j<m; j++){
-                array1[i][j]=sc.nextInt();
+                array1[i][j]=Sc.nextInt();
             }
         }
 
@@ -21,7 +21,7 @@ public class array_merze{
 
         for(int i=0; i<n; i++){
             for(int j=0; j<m; j++){
-                array2[i][j]=sc.nextInt();
+                array2[i][j]=Sc.nextInt();
             }
         }
 
